@@ -1,0 +1,26 @@
+name: deep_link_odevi
+description: Flutter GoRouter ile Deep Link yapısının çözümü.
+# Deep link yakalama ve sayfa yönlendirmesi GoRouter ile tek merkezden yönetilir.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  # Deep Link ve tüm yönlendirme (routing) için GoRouter kullanıldı.
+  # Bu paket, hem initial link hem de link stream yönetimini kapsar.
+  go_router: ^14.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
