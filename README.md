@@ -2,7 +2,7 @@
 
 
 
-## 🛠️ Uygulanan Çözüm ve Mimari
+##  Uygulanan Çözüm ve Mimari
 
 ### 1. Deep Link Formatı
 
